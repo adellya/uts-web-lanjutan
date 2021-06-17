@@ -1,0 +1,19 @@
+{
+    "name": "adellya-winarni/uts-web-lanjutan",
+    "description": "Ujian Tengah Semester Genap TA 2020-2021",
+    "type": "project",
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "authors": [
+        {
+            "name": "Adellya Winarni",
+            "email": "adellyawinarni@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/"
+        }
+    }
+}

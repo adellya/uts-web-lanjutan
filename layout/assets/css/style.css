@@ -1,0 +1,268 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+    background-color: #eeeeee;
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 1000px;
+    min-height: 700px;
+    margin: auto;
+    padding: 15px;
+}
+
+.header {
+    width: 100%;
+    background-color: #382C73;
+    min-height: 100px;
+    display: table;
+    margin-bottom: 30px;
+}
+
+.brand {
+    width: 200px;
+    float: left;
+}
+
+.menu-bar {
+    width: 743px;
+    float: right;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    color: #c9b387;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.topnav-right {
+    float: right;
+}
+
+.desc {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.main {
+    width: 685px;
+    float: left;
+}
+
+.sidebar {
+    width: 300px;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
+.sidebar h3 {
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 7px 0px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.sidebar h3::after {
+    background-color: #990000;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 32px;
+    height: 3px;
+    margin-top: 20px;
+}
+
+.mb-featured-image {
+    float: left;
+    width: 32%;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.recent-post h4 {
+    width: calc(68% - 15px);
+    font-weight: 700;
+    float: left;
+}
+
+.recent-post h4 a {
+    color: #990000;
+    text-decoration: none;
+}
+
+.mb-post {
+    clear: both;
+    display: table;
+    border-bottom: solid 1px #e9e9e9;
+    margin-top: 15px;
+}
+
+figure {
+    margin-bottom: 30px;
+}
+
+
+figure img {
+    width: 100%;
+}
+
+figcaption {
+    color: #999999;
+    font-size: 14px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.entry {
+    padding-right: 0px;
+}
+
+.entry p {
+    margin-bottom: 15px;
+}
+
+.footer {
+    clear: both;
+    width: 100%;
+    display: table;
+    border-top: solid 5px #990000;
+    padding: 15px 0px;
+}
+
+.f3 {
+    width: 25%;
+    font-size: 14px;
+    min-height: 200px;
+    float: left;
+}
+
+.f3 h3 {
+    font-weight: 700;
+}
+
+.f3 ul li a {
+    text-decoration: none;
+    color: #666666;
+}
+
+.menu-bottom {
+    width: 100%;
+    display: table;
+    padding: 30px 0px;
+}
+
+.policy {
+    clear: both;
+    background-color: #382C73;
+    color: white;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+/* Autentikasi */
+.form-auth {
+	width: 480px;
+	min-height: 100px;
+	border: solid 1px #eeeeee;
+	box-sizing: border-box;
+	padding: 30px;
+	margin: 100px auto;
+}
+
+.form-auth h2 {
+	font-size: 28px;
+	border-bottom: solid 2px #cccccc;
+	padding-bottom: 15px;
+	margin-bottom: 30px;
+}
+
+.form-auth input[type='text'],
+.form-auth input[type='password'] {
+	width: 100%;
+	padding: 12px 15px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: solid 1px #cccccc;
+}
+
+.form-auth .btn {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
