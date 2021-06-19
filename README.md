@@ -3,6 +3,8 @@
 2. Import database.sql
 3. Setting kofigurasi yang ada pada folder **app/Koneksi.php**.
     ```
-    $this->db = new PDO("mysql:host=**localhost**; port=**3306**; dbname=**dbweb4**", "root", "root");
+    try {
+        $this->db = new PDO("mysql:host=localhost; port=3306; dbname=dbweb4", "root", "root");
+    }
     ```
 4. Test
